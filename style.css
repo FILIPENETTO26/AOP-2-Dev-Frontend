@@ -1,3 +1,53 @@
-p {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 25px;
+}
+
+header a {
+    text-decoration: none;
+    color: #292F36;
+    font-size: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    &:hover {
+      filter: brightness(1.25);
+      transition: ease-in-out 0.2s;
+      -webkit-filter: brightness(1.25);
+}
+}
+
+.logo img {
+    width: 34px;
+    height: 34px;
+}
+
+.logo h1 {
+    font-size: 40px;
+    font-family: DM Serif Display, serif;
+    font-weight: 400;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
 }
