@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 
+    font-family: 'Jost', sans-serif;
 }
 
 body {
@@ -50,4 +50,56 @@ header a {
 nav {
     display: flex;
     gap: 20px;
+}
+
+.main {
+    max-width: 1200px;
+    height: 760px;
+    margin: 40px auto;
+    border-radius: 70px;
+    background-image: url(/assets/homeImg.svg);
+}
+
+.main .content {
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: 100%;
+    padding: 0 25px;
+    gap: 20px;
+}
+
+.main .content h1 {
+    font-size: 65px;
+    font-family: DM Serif Display, serif;
+    font-weight: 400;
+    line-height: 125%;
+    color: #292F36;
+}
+
+.main .content p {
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 1%;
+    color: #4D5053;
+}
+
+.main .content button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2%;
+    color: #fff;
+    background-color: #292F36;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    &:hover {
+      filter: brightness(1.25);
+      transition: ease-in-out 0.2s;
+      -webkit-filter: brightness(1.25);
+    }
 }
