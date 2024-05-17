@@ -469,6 +469,8 @@ footer .footerContent .footerSocial a img {
     height: 40px;
 }
 
+/* contato.html css */
+
 .contato h1 {
   margin: 30px auto;
   text-align: center;
@@ -477,4 +479,60 @@ footer .footerContent .footerSocial a img {
   font-weight: 400;
   color: #292F36;
   max-width: 1200px;
+}
+
+/* servicos.html css */
+.services h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: DM Serif Display, serif;
+  font-weight: 400;
+  color: #292F36;
+}
+
+.services .servicesContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+.services .servicesContent h1 {
+  font-size: 50px;
+  font-family: DM Serif Display, serif;
+  font-weight: 400;
+  color: #292F36;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.services .servicesContent .servicesContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.services .servicesContent .servicesCards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  text-align: left;
+  max-width: 500px;
+}
+
+.services .servicesContent .servicesImage {
+  max-width: 400px;
+  max-height: 400px;
+  @media screen and (max-width: 768px){
+    display: none;
+  }
+}
+
+.services .servicesContent .servicesImage img {
+  width: 100%;
+  height: 100%;
 }
